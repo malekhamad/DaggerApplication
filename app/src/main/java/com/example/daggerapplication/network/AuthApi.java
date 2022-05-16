@@ -1,6 +1,6 @@
 package com.example.daggerapplication.network;
 
-import com.example.daggerapplication.model.User;
+import com.example.daggerapplication.ui.main.profile.model.User;
 
 import io.reactivex.Flowable;
 import retrofit2.http.GET;

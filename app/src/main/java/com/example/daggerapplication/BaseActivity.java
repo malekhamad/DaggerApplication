@@ -1,15 +1,12 @@
 package com.example.daggerapplication;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.lifecycle.Observer;
 
-import com.example.daggerapplication.model.User;
-import com.example.daggerapplication.ui.main.MainActivity;
+import com.example.daggerapplication.ui.main.profile.model.User;
 import com.example.daggerapplication.util.NetworkResource;
 
 import javax.inject.Inject;

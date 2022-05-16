@@ -2,9 +2,8 @@ package com.example.daggerapplication;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
-import androidx.lifecycle.Observer;
 
-import com.example.daggerapplication.model.User;
+import com.example.daggerapplication.ui.main.profile.model.User;
 import com.example.daggerapplication.util.NetworkResource;
 
 import javax.inject.Inject;

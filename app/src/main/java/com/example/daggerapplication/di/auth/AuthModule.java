@@ -10,6 +10,7 @@ import retrofit2.Retrofit;
 public class AuthModule {
 
     @Provides
+    @AuthScope
     static AuthApi provideAuthApi(Retrofit retrofit){
         return retrofit.create(AuthApi.class);
     }

@@ -1,14 +1,11 @@
 package com.example.daggerapplication.ui.auth;
 
-import android.util.Log;
-
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.LiveDataReactiveStreams;
-import androidx.lifecycle.MediatorLiveData;
 import androidx.lifecycle.ViewModel;
 
 import com.example.daggerapplication.SessionManager;
-import com.example.daggerapplication.model.User;
+import com.example.daggerapplication.ui.main.profile.model.User;
 import com.example.daggerapplication.network.AuthApi;
 import com.example.daggerapplication.util.NetworkResource;
 
